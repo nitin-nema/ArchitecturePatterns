@@ -1,0 +1,6 @@
+  // application.yml
+  zuul:
+    routes:
+      product-service:
+        path: /products/**
+        url: http://localhost:8081
